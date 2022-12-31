@@ -1,20 +1,11 @@
 @charset "UTF-8";
-/* Header */
-.header {
+/* Шапка */
+.header-page {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
 }
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding: 0 15px;
-}
-
-/* Шапка */
-.header-container {
+.header-page__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,8 +17,7 @@
           align-items: center;
   gap: 344px;
 }
-
-.header-nav {
+.header-page__header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,43 +32,37 @@
           align-items: center;
   gap: 94px;
 }
-
-.header-menu {
+.header-page__header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
   position: relative;
 }
-
-.header-adress {
+.header-page__header-adress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
 }
-
-.logo-link {
+.header-page__logo-link {
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   color: #2196F3;
 }
-
-.logo-header {
+.header-page__logo-header {
   font-family: "Raleway";
   font-style: normal;
   font-size: 26px;
   line-height: 1.2;
   color: #000;
 }
-
-a {
+.header-page a {
   text-decoration: none;
 }
-
-.link-current {
+.header-page__link--current {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -93,8 +77,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.link-current::after {
+.header-page__link--current::after {
   position: absolute;
   bottom: -33px;
   right: 0px;
@@ -110,8 +93,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.link {
+.header-page__link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -125,8 +107,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.link-adress {
+.header-page__link-adress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,8 +130,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts-icon {
+.header-page__contacts-icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -166,15 +146,12 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contacts-icon:hover {
+.header-page__contacts-icon:hover {
   fill: var(--accent-color);
 }
-
-.contacts-icon:focus {
+.header-page__contacts-icon:focus {
   fill: var(--accent-color);
 }
-
-.link-adress:focus {
+.header-page__link-adress:focus {
   color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
