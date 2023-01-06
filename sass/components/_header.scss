@@ -145,3 +145,26 @@
 
     }
 
+.header-page__link:hover {
+    color: var(--accent-color)
+}
+
+.header-page__link:focus {
+    color: var(--accent-color);
+}
+
+.header-page__link:active {
+    color: var(--accent-color)
+}
+
+.header-page__link--current:hover {
+    color: var(--accent-color)
+}
+
+.header-page__link--current:focus {
+    color: var(--accent-color);
+}
+
+.header-page__link--current:active {
+    color: var(--accent-color)
+}
